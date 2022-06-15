@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+class AreaDeUnCirculo 
+ {  
+  public static void main (String [] args) 
+   {
+
+   Scanner c= new Scanner(System.in);
+ 
+   System.out.println("Ingresar el radio: ");
+
+   double r= c.mextDouble();
+   double area=(22 *r *r)/7;
+  
+ 
+ 
+   System.out.println("El area del circulo es: " + area);
+  
+   }
+
+}
